@@ -2,8 +2,8 @@ CC = gcc
 CFLAGS = -Wall -Wextra -D_REENTRANT
 LDFLAGS = -lpthread
 
-SERVER_SRC = groupchat_linux_server.c
-CLIENT_SRC = groupchat_linux_client.c
+SERVER_SRC = server.c
+CLIENT_SRC = client.c
 
 SERVER = server
 CLIENT = client
